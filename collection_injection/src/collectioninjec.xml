@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+<bean id="dsinjection"
+ 		class="collection.CollectionIn">
+ 		<property name="name" >
+ 		<list>
+ 		<value>"rohan"</value>
+ 		<value>"peso"</value>
+ 		<value>"parv"</value>
+ 		
+ 		</list>
+ 		</property>
+ 		
+ 		<property name="Phnno"> 
+ 		<set>
+ 		<value>9560903612</value>
+ 		<value>9560903613</value>
+ 		<value>9560903614</value>
+ 		</set>
+ 		</property>
+ 		
+ 		
+ 		<property name="adharno"> 
+ 		<map>
+ 		<entry key="9560903612" value="ro"/>
+ 		<entry key="9560903613" value="pe"/>
+ 		<entry key="9560903614" value="pa"/>
+ 		</map>
+ 		</property>
+ 		
+ 		
+ 		<!--   <property name="address">
+ 			<map>
+ 			<entry key="9560903612" value="addresss"/>
+ 			</map>
+ 		</property> 
+ 	-->
+ 		
+ 		
+ 		
+ 		<property name="email"> 
+ 		<props>
+ 		<prop key="9560903612">rohan@gmail.com</prop> 
+ 		<prop key="9560903613">peso@gmail.com</prop> 
+ 		<prop key="9560903614">parv@gmail.com</prop> 
+ 		</props>
+ 		</property>
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+   	</bean>
+   	
+   	
+   	
+   	
+   	<!-- 
+   	   <bean id="addresss" class="collection.Address">
+   		<property name="Hno" value="823"/>
+ 		<property name="Sector" value="31"/>
+ 		<property name="City" value="Faridabad"/>
+
+   	</bean>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>

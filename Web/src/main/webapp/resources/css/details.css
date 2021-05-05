@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+body {
+    background-color: #8080ff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.error{
+	 font-family: 'Ubuntu', sans-serif;
+	 color:red;
+}
